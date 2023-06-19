@@ -6,13 +6,6 @@
  go version go1.20.5 darwin/arm64
 ```
 
-
-- 使用git克隆本项目
-
-  - ```git
-    git clone https://github.com/pupuk/addr.git
-    ```
-
 - 索引树自动生成
 
   - ```shell-script
@@ -69,7 +62,3 @@ func main() {
 }
 
 ```
-HTTP请求结果
-![image](https://user-images.githubusercontent.com/7934974/184922637-9d909cc2-fa47-45aa-8297-0ea69495f215.png)
-
-
