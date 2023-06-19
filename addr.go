@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"getAddr/areaMap"
+	"github.com/originDoris/getAddr/areaMap"
 )
 
 type Address struct {
