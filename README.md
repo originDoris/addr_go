@@ -20,12 +20,11 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/pupuk/addr"
+    "github.com/originDoris/getAddr"
 )
 
 func main() {
-	parse := addr.Smart("张三 13800138000 龙华区龙华街道1980科技文化产业园3栋308 身份证120113196808214821")
+	parse := getAddr.Smart("张三 13800138000 龙华区龙华街道1980科技文化产业园3栋308 身份证120113196808214821")
 
 	// 输出解析结果
 	fmt.Println(parse.Name)     // 张三
