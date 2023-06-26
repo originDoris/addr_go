@@ -47,14 +47,14 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/pupuk/addr"
+    "github.com/originDoris/getAddr"
 )
 
 func main() {
 	app := fiber.New()
 
 	app.Get("/", func(c *fiber.Ctx) error {
-		parse := addr.Smart(c.Query("addr"))
+		parse := getAddr.Smart(c.Query("addr"))
 		return c.JSON(parse)
 	})
 
